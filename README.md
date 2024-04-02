@@ -25,7 +25,7 @@ Aby skonstruować obraz i uruchomić kontener Docker, postępuj zgodnie z poniż
 
 3. **Uruchomienie kontenera:**
 
-    Po zakończeniu budowy obrazu, uruchom kontener Docker, używając polecenia `docker run`.
+    Po zakończeniu budowy obrazu, uruchom kontener Docker, używając polecenia `docker run`. Zwróć uwagę, czy inne kontenery nie wykorzystują już portu 8080.
 
     ```bash
     docker run -d -p 8080:8080 web100
@@ -33,7 +33,7 @@ Aby skonstruować obraz i uruchomić kontener Docker, postępuj zgodnie z poniż
 
 4. **Sprawdzenie działania:**
 
-    Otwórz przeglądarkę internetową i przejdź do adresu `http://localhost:8080/`, aby sprawdzić, czy serwer Apache działa poprawnie.
+    Otwórz przeglądarkę internetową i przejdź do adresu http://localhost:8080/, aby sprawdzić, czy serwer Apache działa poprawnie.
 
 
 [![image.png](https://i.postimg.cc/vTN8qVTb/image.png)](https://postimg.cc/Mf18XX1F)
