@@ -11,7 +11,7 @@ Aby skonstruować obraz i uruchomić kontener Docker, postępuj zgodnie z poniż
     Sklonuj to repozytorium na swój lokalny komputer:
 
     ```bash
-    git clone <adres_repozytorium>
+    git clone https://github.com/s97640/DockerLab4
     ```
 
 2. **Budowa obrazu Docker:**
